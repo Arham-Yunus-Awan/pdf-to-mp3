@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.venv/
+
+# IDEs
+.idea/
+.vscode/
+
+# Flask specific
+.flaskenv
+instance/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads and Outputs (specific to this project)
+src/uploads/
+src/outputs/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+thumbs.db
